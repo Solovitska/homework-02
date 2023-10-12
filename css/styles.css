@@ -9,18 +9,19 @@ button {
     cursor: pointer;
 }
 body {
-    font-family:'Raleway', sans-serif; 
+    font-family: 'Raleway' sans-serif; 
     color: #434455;
     background-color: #ffffff;
 }
 /* ======== Page header==================================== */
 .logotype-lihk {
-    font-family: Raleway, sans-serif;
+    font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.17;
     letter-spacing: 0.03em;
-    background-color: #4D5AE5;
+    text-transform: uppercase;
+    color: #4d5ae5;
 
 }
 .logo-studio{
@@ -30,8 +31,12 @@ body {
     line-height: 1.1;
     letter-spacing: 0.03em;
     color: #2E2F42; 
- 
     }
+
+ .menu-link:hover,
+ .menu-link:focus {
+color: #404bbf;
+}
 
     
 .menu-link{
@@ -49,8 +54,13 @@ body {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    font-style: normal;
     color: #434455;
    }
+.contact-list-item:hover,
+.contact-list-item:focus {
+    color: #404bbf;
+}
 
 
  /* ==============HERO SECTION =============================== */ 
@@ -58,21 +68,27 @@ body {
     font-family: Roboto;
     font-size: 56px;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.07;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
-    background: #2E2F42;
+    background-color: #2E2F42;
+    color: #ffffff;
+    text-align: center;
 }
 .other-service{
 
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
      background-color: #4D5AE5;
-  
-    }
+     color: #ffffff}
+
+  .other-service:hover,
+  .other-service:focus{
+background-color: #404BBF
+  }
+
   /* ========  OUR Section=======================================*/
 .criteria-list-title{
     font-family: Roboto;
@@ -98,8 +114,10 @@ body {
     font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
+    background-color: #F4F4FD;
     color: #2E2F42;
 }
 .team-section-list-title{
@@ -109,6 +127,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    background-color: #FFFFFF
 }
 .team-section-text{
     font-family: Roboto;
@@ -124,7 +143,9 @@ body {
     font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
@@ -137,25 +158,20 @@ letter-spacing: 0.02em;
 color: #2E2F42;
 
 }
-.portfolio-section-text{
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
+
 
 
 /* =================================Footer============================== */
 .page-footer-list{
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.17;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: #4D5AE5;
-    background: #2E2F42;
+    background-color: #2E2F42;
+
 }
 .logo-title-studio{
 font-family: Raleway;
