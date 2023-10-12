@@ -1,4 +1,4 @@
-/* ========logo-studio============================ */
+
 .list{
     list-style-type: none;
 }
@@ -11,24 +11,24 @@ button {
     cursor: pointer;
 }
 body {
-    font-family: 'Roboto' sans-serif; 
+    font-family: Roboto, sans-serif; 
     color: #434455;
     background-color: #ffffff;
 }
 
 
 /* ======== Page header==================================== */
-.logo-link-header {
-    font-family: 'Raleway', sans-serif;
+.logo-link-web{
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17em;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+     color: #4d5ae5;
 }
 
-span {
+.logo-list-span {
     font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
@@ -36,8 +36,17 @@ span {
     letter-spacing: 0.03em;
     color: #2e2f42;
 }
- .menu-link:hover,
- .menu-link:focus {
+.navigation-list-link {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+ .nav-list-link:hover,
+ .nav-list-link:focus {
 color: #404bbf;
 }
 
