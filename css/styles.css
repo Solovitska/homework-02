@@ -4,35 +4,38 @@
 }
 .link { 
     text-decoration: none;
+
 }
+
 button {
     cursor: pointer;
 }
 body {
-    font-family: 'Raleway' sans-serif; 
+    font-family: 'Roboto' sans-serif; 
     color: #434455;
     background-color: #ffffff;
 }
+
+
 /* ======== Page header==================================== */
-.logotype-lihk {
+.logo-link-header {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17em;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+span {
     font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-
+    color: #2e2f42;
 }
-.logo-studio{
-    font-family: Raleway, sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.1;
-    letter-spacing: 0.03em;
-    color: #2E2F42; 
-    }
-
  .menu-link:hover,
  .menu-link:focus {
 color: #404bbf;
@@ -50,11 +53,11 @@ color: #404bbf;
  /*==== Contacts=========================================== */
    .contact-list-item {
     font-family: Roboto;
+    font-style: normal;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    font-style: normal;
     color: #434455;
    }
 .contact-list-item:hover,
@@ -71,9 +74,10 @@ color: #404bbf;
     line-height: 1.07;
     letter-spacing: 0.02em;
     background-color: #2E2F42;
-    color: #ffffff;
     text-align: center;
-}
+    color: #ffffff
+    }
+
 .other-service{
 
     font-family: Roboto, sans-serif;
@@ -150,15 +154,23 @@ background-color: #404BBF
     color: #2E2F42;
 }
 .portfolio-list-title{
-font-family: Roboto;
-font-size: 20px;
-font-weight: 500;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2E2F42;
+   font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 
 }
 
+.portfolio-section-text{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
 
 
 /* =================================Footer============================== */
@@ -180,7 +192,7 @@ font-family: Raleway;
     line-height: 1.1;
     letter-spacing: 0.03em;
     color: #F4F4FD;
-    background: #2E2F42;
+    background-color: #2E2F42;
 }
 .text-footer-paragraphe{
     font-family: Roboto;
@@ -189,5 +201,5 @@ font-family: Raleway;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
-    background: #2E2F42;
+    background-color: #2E2F42;
 }
