@@ -72,8 +72,8 @@ color: #404bbf;
     letter-spacing: 0.02em;
     color: #434455;
    }
-.contact-list-item:hover,
-.contact-list-item:focus {
+.contact-list-item-link:hover,
+.contact-list-item-link:focus {
     color: #404bbf;
 }
 
@@ -92,7 +92,9 @@ color: #404bbf;
     color: #ffffff;
     background-color: #2E2F42;
     }
-
+.criteria{
+    background-color: #2e2f42;
+}
 .other-service{
     font-family: Roboto, sans-serif;
     font-size: 16px;
@@ -129,6 +131,7 @@ background-color: #404bbf;
 /* ========================< !--Our Team -->================== */
 .team-section{
 background-color: #F4F4FD;
+
 }
 .section-title{
     font-family: Roboto;
@@ -140,6 +143,9 @@ background-color: #F4F4FD;
     text-transform: capitalize;
     background-color: #F4F4FD;
     color: #2E2F42;
+}
+.team-section-list-item{
+background-color: #FFFFFF;
 }
 .team-section-list-title{
     font-family: Roboto;
