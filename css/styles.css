@@ -79,7 +79,7 @@ color: #404bbf;
 
 
  /* ==============HERO SECTION =============================== */ 
- .hero-sectio{
+ .hero-section{
     background-color:  #2e2f42;
  }
 .main-title{
@@ -92,9 +92,7 @@ color: #404bbf;
     color: #ffffff;
     background-color: #2E2F42;
     }
-.criteria{
-    background-color: #2e2f42;
-}
+
 .other-service{
     font-family: Roboto, sans-serif;
     font-size: 16px;
@@ -112,6 +110,7 @@ background-color: #404bbf;
   }
 
   /* ========  OUR Section=======================================*/
+
 .criteria-list-title{
     font-family: Roboto;
     font-size: 20px;
